@@ -9,6 +9,10 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .container {
@@ -75,6 +79,8 @@ ul li {
 }
 
 footer {
+    margin-top: auto;
+    display: flex;
     background: #333;
     color: white;
     text-align: center;
@@ -84,6 +90,8 @@ footer {
 .certificates img {
     width: 100px;
     margin: 10px;
-    border: 1px solid #ddd;
+    background: none;
+    border: 1px; 
     border-radius: 5px;
 }
+
